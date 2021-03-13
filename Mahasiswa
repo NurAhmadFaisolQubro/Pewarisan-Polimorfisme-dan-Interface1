@@ -1,0 +1,15 @@
+public class Mahasiswa extends person{
+    protected String nim;
+    
+    public Mahasiswa(String nama, String adress, String hobby, int age, String nim) {
+        super(nama, adress, hobby, age);
+        
+        this.nim = nim;
+        System.out.println("Hello from mahasiswa class");
+    }
+    public String getNim(){
+        return nim;
+    }
+    
+    
+}
