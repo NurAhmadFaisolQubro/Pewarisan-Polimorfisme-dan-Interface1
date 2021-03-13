@@ -1,0 +1,16 @@
+public class pewarisan {
+    public static void main(String[] args){
+        //mengambil dari class person
+       person  faisol = new person("nur achmad faisol qubro", "probolinggo", "sleeping", 19);
+        System.out.println("Adress: "+faisol.getAdress()+", age: "+faisol.getAge()+", hobby: "+faisol.getHobby()+", Nama: "+faisol.getNama());
+    
+        //mengambi; dari class mahasiswa
+        Mahasiswa icol = new Mahasiswa("icol", "probolinggo", "sleepers", 17, "E31201939");
+        
+        icol.setAdress("Singapura");
+        icol.setAge(24);
+        icol.setHobby("Work in Google");
+        icol.setNama("Nur Achmad Faisol Qubro");
+        System.out.println("Adress: "+icol.getAdress()+", age: "+icol.getAge()+", hobby: "+icol.getHobby()+", Nama: "+icol.getNama()+", nim: "+icol.getNim());
+    }
+}
